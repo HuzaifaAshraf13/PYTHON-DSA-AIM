@@ -1,0 +1,14 @@
+DEFINE
+How the rruning time and space of a program grows as the input grows
+
+time linear prorpotion to size
+time = a*n
+def foo(a):
+size(arr)-> 100 -> 0.22 millisecond
+size(arr) -> 1000-> 0.23 millisecond
+
+in that case time is almost constant and represaented by
+constatnt function is represented by
+time = a
+so as the time is constant the time colpexity is
+o(1)
