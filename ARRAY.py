@@ -1,5 +1,7 @@
 
 stock_prices =[223,225,330,990]
+# Static array
+# stock_prices.insert(2,333)
 
 #print(stock_prices[2])
 # BIG O ANALYSIS
