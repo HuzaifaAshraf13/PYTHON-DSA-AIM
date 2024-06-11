@@ -1,0 +1,15 @@
+Issue With array : if capacity is 5 when it exceed the program will alocate n*2 space in memory
+ Array stores elements at contious memory location
+ Linkned list stores them at diffrent location ecah pointer points to the next element
+ in case of insertion just modify the link and it will create space for 1 element instead n*2
+ BIG O ANALYSIS
+ Stock prices
+ [298]|[0x2a1]->[301]|[OA23X1]
+  #Insert element at begining O(1)
+  Delete element at begining O(1)
+  insert delete element at the end O(n) cause you have to iterate through  list
+   LINKED LIST TRANSVERSAL AND ACCESING ELEMENT BY VALUE O(n)
+BENIFITS    You don't need to allocate space alocate whenever it needed + insertion becomes easy
+DOULBLE LINKED LIST
+ IN this the element has not only adress of next element but also the previous ones
+ [NULL] [298]|[0x2a1]<-->[301]|[OA23X1]<-->[301]|[OA23X1][NULL]
